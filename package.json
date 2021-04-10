@@ -1,16 +1,16 @@
 {
-  "name": "portfolio",
+  "name": "dqunbp",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start"
+    "dev": "next dev",
+    "start": "next start",
+    "build": "node ./scripts/gen-rss.js && next build"
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "next": "latest",
+    "next": "^10.1.3",
     "nextra": "^0.4.4",
     "nextra-theme-blog": "^0.1.5",
     "react": "^17.0.2",
@@ -23,5 +23,9 @@
     "tabWidth": 2,
     "trailingComma": "none",
     "semi": false
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.4"
   }
 }
