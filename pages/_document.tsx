@@ -17,7 +17,7 @@ class MyDocument extends Document {
       title: 'dqunbp',
       description: 'dqunbp blog',
       image:
-        'https://s.gravatar.com/avatar/af9a0a0b9b5aad1b35c4beb97732cb3d?s=180'
+        'https://s.gravatar.com/avatar/af9a0a0b9b5aad1b35c4beb97732cb3d?s=90'
     }
 
     return (
@@ -31,7 +31,7 @@ class MyDocument extends Document {
           <meta property="og:image" content={meta.image} />
           <meta
             name="twitter:card"
-            content="https://s.gravatar.com/avatar/af9a0a0b9b5aad1b35c4beb97732cb3d?s=280"
+            content="https://s.gravatar.com/avatar/af9a0a0b9b5aad1b35c4beb97732cb3d?s=180"
           />
           <meta name="twitter:site" content="@dqunbp" />
           <meta name="twitter:title" content={meta.title} />
